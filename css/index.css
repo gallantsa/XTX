@@ -167,6 +167,16 @@
   font-size: 22px;
 }
 
+/* 人气推荐 */
+.recommend .bd li {
+  background-color: #fff;
+}
+
+.recommend .bd .txt p{
+  margin-top: 15px  ;
+  color: #A1A1A1;
+  font-size: 16px;
+}
 
 
 
