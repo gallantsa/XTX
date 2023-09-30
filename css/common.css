@@ -42,4 +42,113 @@
   font-size: 16px;
 }
 
+.header {
+  display: flex;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  height: 88px;
+  /* background-color: pink; */
+}
+
+.header .logo {
+  width: 200px;
+  height: 88px;
+  /* background-color: skyblue; */
+  margin-right: 40px;
+}
+
+.header .logo a {
+  display: block;
+  height: 88px;
+  width: 200px;
+  background-image: url('../images/logo.png');
+}
+
+.header .nav {
+  margin-top: 33px;
+  font-size: 16px;
+}
+
+.header .nav ul {
+  display: flex;
+  margin-right: 28px;
+}
+
+.header .nav li {
+  margin-right: 47px;
+}
+
+.header .nav li a {
+  padding-bottom: 8px;
+}
+
+.header .nav li a:hover {
+  color: #5EB69C;
+  border-bottom: 2px solid #5EB69C;
+}
+
+.search {
+  display: flex;
+  margin-top: 33px;
+  margin-right: 45px;
+  width: 170px;
+  height: 34px;
+  padding-bottom: 8px;
+  font-size: 16px;
+  border-bottom: 2px solid #F4F4F4;
+  color: #ccc;
+}
+
+.search .iconfont {
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+.search input {
+  /* 浏览器会默认生效input标签的默认宽度, 所以flex: 1; 不生效 */
+  /* 解决方法: 重置input的默认宽度 -> width: 0; */
+  flex: 1;
+  width: 0;
+}
+
+.search input::placeholder {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.header .cart {
+  margin-top: 33px;
+  position: relative;
+  cursor: pointer;
+}
+
+.header .cart .iconfont {
+  font-size: 24px;
+}
+
+.header .cart i {
+  position: absolute;
+  padding: 0 6px;
+  height: 15px;
+  background-color: #E26237;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #FFFEFE;
+  line-height: 15px;
+
+  top: 1px;
+
+  /* right 定位右对齐, 如果文字多了, 向左撑开, 可能盖住其他内容 */
+  /* right: 1px; */
+  left: 15px;
+}
+
+
+
+
+
+
+
+
+
 
