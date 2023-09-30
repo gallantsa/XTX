@@ -143,6 +143,129 @@
   left: 15px;
 }
 
+/* 底部 */
+.footer {
+  height: 580px;
+  background-color: #F5F5F5;
+}
+
+/* 服务 */
+.footer .service {
+  padding: 60px 0;
+  height: 178px;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+.footer .service ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer .service li {
+  display: flex;
+}
+
+
+.footer .service h5 {
+  width: 58px;
+  height: 58px;
+  margin-right: 20px;
+  /* background-color: skyblue; */
+  background-image: url('../images/sprite.png');
+}
+.footer .service li:nth-child(2) h5{
+  background-position: 0 -58px;
+}
+
+.footer .service p {
+  height: 58px;
+  line-height: 58px;
+  font-size: 28px;
+}
+
+/* 帮助中心 */
+.footer .help {
+  padding-top: 60px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: pink; */
+}
+
+.footer .help .left {
+  display: flex;
+}
+
+
+.footer .help dt {
+  margin-right: 84px;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.footer .help .left dd {
+  margin-bottom: 10px;
+}
+
+.footer .help .left dd a {
+  font-size: 16px;
+  color: #969696;
+}
+
+.footer .help .iconfont {
+  margin-left: 5px;
+  color: #5EB69C;
+}
+
+.footer .right ul {
+  display: flex;
+}
+
+.footer .right li {
+  margin-right: 55px;
+  text-align: center;
+  font-size: 16px;
+  color: #969696;
+}
+
+.footer .right li:nth-child(2) {
+  margin-right: 0;
+}
+
+.footer .right li .pic {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+/* 版权 */
+.footer .copyright {
+  text-align: center;
+}
+
+.footer .copyright ul{
+  display: flex;
+  justify-content: center;
+}
+
+.footer .copyright li {
+  color: #A1A1A1;
+}
+
+
+.footer .copyright li a {
+  padding: 0 15px;
+  color: #A1A1A1;
+}
+
+
+
+.footer .copyright p {
+  margin-top: 10px;
+  color: #A1A1A1;
+}
+
+
 
 
 
