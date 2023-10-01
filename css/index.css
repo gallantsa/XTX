@@ -232,18 +232,18 @@
   margin-bottom: 20px;
 }
 
-.fresh .right {
+/* 通用代码 */
+.title .right {
   display: flex;
-
 }
 
-.fresh .right ul{
+.title .right ul {
   display: flex;
+  margin-top: 10px;
   margin-right: 58px;
 }
 
-/* 要将a转换成block */
-.fresh .right a {
+.title .right ul a {
   display: block;
   margin-left: 6px;
   padding: 0 7px;
@@ -252,16 +252,12 @@
   line-height: 20px;
 }
 
-.fresh .right li {
-  margin: 11px 0;
-  margin-right: 13px;
-}
-
-.fresh .right .active {
+.title .right ul .active {
   background-color: #00BE9A;
-  color: #FFFFFF;
+  color: #fff;
 }
 
+/* 生鲜内容 */
 .content {
   display: flex;
   justify-content: space-between;
@@ -270,30 +266,33 @@
 .content .left {
   width: 248px;
   height: 610px;
+  /* background-color: pink; */
 }
 
 .content .right {
   width: 968px;
   height: 610px;
+  /* background-color: pink; */
 }
 
 .content .right ul {
-  margin: 0;
   display: flex;
   flex-wrap: wrap;
 }
 
-.content .right li{
-  margin: 0;
+.content .right li {
+  position: relative;
+  padding: 10px 21px 0;
   width: 242px;
   height: 305px;
-  position: relative;
+  border: 2px solid #fff;
 
   /* 为了隐藏绿色cover */
   overflow: hidden;
 }
 
-.content .right .pic {
+/* 产品内容 */
+.content .pic {
   width: 200px;
   height: 180px;
 }
@@ -313,7 +312,6 @@
   margin-left: 5px;
   font-size: 22px;
 }
-
 
 /* 产品底部绿色区域 */
 .content li .cover {
